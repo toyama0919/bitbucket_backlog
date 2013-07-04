@@ -1,0 +1,9 @@
+source :rubyforge
+gem 'sinatra'
+gem 'thin'
+gem 'bitbucket_rest_api'
+gem 'shotgun'
+gem 'foreman'
+gem 'heroku'
+gem 'json'
+gem 'active_support'

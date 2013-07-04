@@ -1,0 +1,8 @@
+details: <%="#{payload['canon_url']}/#{@repository['owner']}/#{@repository['name']}/commits/#{commit['raw_node']}" %>
+branches: <%=commit["branch"]%>
+changeset: <%=commit["node"]%>
+user: <%=commit["raw_author"]%>
+date: <%=Time.strptime(commit["timestamp"], "%Y-%m-%d %H:%M:%S") + 32400 %>
+description:
+<%=commit["message"]%>
+

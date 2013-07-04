@@ -1,0 +1,6 @@
+backlog:
+  user : '${backlog_user}'
+  password : '${backlog_password}'
+  key : '${backlog_key}' # http://${key}.backlog.jp
+  projects : 
+    - '${YOUR_PROJECT}'
