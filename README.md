@@ -6,9 +6,12 @@ sinatraで作っているので、HEROKUなどにそのままデプロイして�
 ## API REFERENCE
 
 ・bitbucket API
+
 https://confluence.atlassian.com/display/BITBUCKET/POST+Service+Management
 
+
 ・backlog API
+
 http://www.backlog.jp/api/
 
 
